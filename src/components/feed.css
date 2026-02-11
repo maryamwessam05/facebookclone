@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.feedpost{
+    display: flex;
+width: 710px;
+height: 503px;
+padding: 11px 12px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 7px;
+background: #FFF;
+}
+
+.profilename{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.profimg{
+    display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.name{
+    display: flex;
+width: 98px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.time{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 2px;
+}
+
+.time h3{
+    color: #888;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.name h1{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

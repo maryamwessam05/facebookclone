@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.friendtab{
+    display: flex;
+height: 100px;
+padding: 6px;
+flex-direction: column;
+align-items: center;
+gap: 5px;
+align-self: stretch;
+border-radius: 7px;
+background: #F9F9F9;
+}
+
+.friendname{
+    display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.prof{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 4px;
+}
+
+.prof h3{
+    color: #000;
+font-family: "Poppins";
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.friendname h4{
+    color: #65676B;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.actions{
+    display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.delete{
+    .confirm{
+        display: flex;
+    width: 150px;
+    height: 36px;
+    padding: 9px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: #E4E6EB;
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    outline: none;
+    border: 0;
+    }
+}

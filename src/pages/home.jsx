@@ -3,7 +3,9 @@ import Navbar from '../components/navbar';
 import "./home.css"
 import Leftcol from '../components/leftcol';
 import Imagecards from '../components/imagecards';
-import Blog from '../components/post';
+import Post from '../components/post';
+import Feed from '../components/feed';
+import Requests from '../components/requests';
 
 const Home = () => {
     return ( 
@@ -17,8 +19,15 @@ const Home = () => {
 
         <div className="middlecol">
             <Imagecards />
-            <Blog />
+            <Post />
+            <Feed />
+            <Feed />
+            <Feed />
 
+        </div>
+
+        <div className="rightcol">
+            <Requests />
         </div>
         
         </div>

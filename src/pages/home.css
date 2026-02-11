@@ -22,3 +22,7 @@ border-radius: 7px;
     flex-direction: column;
     gap: 10px;
 }
+
+.rightcol{
+    width: 22%;
+}

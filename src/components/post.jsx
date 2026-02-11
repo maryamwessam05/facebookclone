@@ -5,7 +5,7 @@ import liveimg from "../assets/live.svg"
 import photo from "../assets/photo.svg"
 import smile from "../assets/smile.svg"
 
-const Blog = () => {
+const Post = () => {
     return ( 
         <>
         <div className="blog">
@@ -38,4 +38,4 @@ const Blog = () => {
     );
 }
  
-export default Blog;
+export default Post;
