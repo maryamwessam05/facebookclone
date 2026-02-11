@@ -8,6 +8,7 @@ const Requests = () => {
         <>
             <Title />
             <Friend />
+            <Friend />
         </>
      );
 }
