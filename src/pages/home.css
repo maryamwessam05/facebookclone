@@ -26,3 +26,14 @@ border-radius: 7px;
 .rightcol{
     width: 23%;
 }
+
+.streams{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    margin-top: 10px;  
+
+}
+.streamstab{
+    margin-top: 20px;
+}

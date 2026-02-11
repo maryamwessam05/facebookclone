@@ -6,6 +6,8 @@ import Imagecards from '../components/imagecards';
 import Post from '../components/post';
 import Feed from '../components/feed';
 import Requests from '../components/requests';
+import Title from '../components/title';
+import Streams from '../components/streams';
 
 const Home = () => {
     return ( 
@@ -28,7 +30,18 @@ const Home = () => {
 
         <div className="rightcol">
             <Requests />
-            
+            <div className="streamstab">
+                <Title />
+                <div className="streams">
+                    <Streams />
+                    <Streams />
+                    <Streams />
+                    <Streams />
+                    <Streams />
+                    <Streams />
+                </div>
+
+            </div>
         </div>
         
         </div>

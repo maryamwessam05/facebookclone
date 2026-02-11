@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins";
+    padding: 0;
+}
+
+.streamtab{
+    display: flex;
+width: 300px;
+justify-content: space-between;
+align-items: center;
+}
+
+.streamtext h4{
+    color: #000;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.streamtext{
+    display: flex;
+width: 238px;
+flex-direction: column;
+align-items: flex-start;
+gap: 1px;
+flex-shrink: 0;
+}
+
+.streamtext h6{
+    color: #000;
+    font-family: Arial;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.streamtext span{
+    color: #1877F2;
+font-family: "Poppins";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
