@@ -1,0 +1,25 @@
+.title{
+    display: flex;
+height: 19px;
+align-items: center;
+justify-content: space-between;
+align-self: stretch;
+}
+
+.title h4{
+    color: #000;
+font-family: "Poppins";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.see{
+    color: #1877F2;
+font-family: Arial;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}

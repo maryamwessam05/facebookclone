@@ -1,8 +1,8 @@
 import React from 'react';
 import './navbar.css'
 import logoimg from "../assets/logo.svg"
-import navicon from "../assets/icon.svg"
 import profileimg from "../assets/profile.svg"
+import Hometab from './hometab';
 
 const Navbar = () => {
     return ( 
@@ -11,10 +11,11 @@ const Navbar = () => {
             <img src={logoimg} alt="logo" />
 
             <div className="navicons">
-                <img src={navicon} alt="navicon" />
-                <img src={navicon} alt="navicon" />
-                <img src={navicon} alt="navicon" />
-                <img src={navicon} alt="navicon" />
+                <Hometab />
+                <Hometab />
+                <Hometab />
+                <Hometab />
+
             </div>
 
             <img src={profileimg} alt="profimg" />

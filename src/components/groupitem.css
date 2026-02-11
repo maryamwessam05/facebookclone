@@ -1,0 +1,15 @@
+.groupitem{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 21px;
+
+}
+.groupitem h4{
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

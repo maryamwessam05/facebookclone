@@ -1,0 +1,21 @@
+.col1{
+    width: 25%;
+    background-color: white;
+    display: flex;
+height: 1658px;
+padding: 34px 10px;
+flex-direction: column;
+align-items: center;
+gap: 61px;
+border-radius: 7px;
+
+}
+
+.body{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+}
+.middlecol{
+    width: 50%;
+}

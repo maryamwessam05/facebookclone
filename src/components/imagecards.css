@@ -1,0 +1,18 @@
+.imagecards{
+    display: flex;
+width: 710px;
+height: 280px;
+padding: 40px 13px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 7px;
+background: #FFF;
+}
+
+.cards{
+    display: flex;
+align-items: center;
+gap: 16px;
+}

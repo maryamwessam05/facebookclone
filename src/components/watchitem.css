@@ -1,0 +1,23 @@
+.watch{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 21px;
+}
+
+.watchitem{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+}
+
+.watch h3{
+    color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
